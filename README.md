@@ -25,6 +25,9 @@ block module imports on `file://`).
 
 `storyboard.html` is the approved storyboard: one still per beat, with timings, on-screen text, moves, camera and sound.
 
+`video/` holds one MP4 of each animation: 1920x1080, 30 fps, 16 samples a frame, sound at about -15 LUFS. They were
+rendered in headless Chrome with a software renderer (no GPU was available), which changes the speed, not the picture.
+
 ## How it is put together
 
 ```
