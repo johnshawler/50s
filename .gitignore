@@ -1,0 +1,5 @@
+out/
+lib/three.*.js
+pop50s.html
+node_modules/
+*.f32
